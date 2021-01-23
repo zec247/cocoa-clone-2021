@@ -1,3 +1,3 @@
 # KoKoa clone 2021 lecture
 
-my CSS got so much better!!
+HTML & CSS are so much fun!
