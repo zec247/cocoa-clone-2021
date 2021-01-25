@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>코코아톡에 오신 것을 환영합니다.</title>
+    <title>코코아톡 클론</title>
 </head>
 <body>
     <div class="status-bar">
@@ -25,15 +25,15 @@
     <header class="welcome-header">
         <h1 class="welcome-header__title">코코아톡에 오신 것을 환영합니다.</h1>
         <p class="welcome-header__text">
-            코코아톡 계정이 있다면, E-mail 주소와 전화번호를 입력해주세요.
+            코코아톡 계정이 있다면, <br>E-mail 주소와 전화번호를 입력해주세요.
         </p>
     </header>
 
-    <form id="login-form">
-        <input type="text" placeholder="E-mail or Phone number">
-        <input type="password" placeholder="Password">
-        <input type="submit" value="로그인">
-        <a href="#">코코아 계정 또는 비밀번호 찾기</a>
+    <form action="friends.html" method="get" class="login-form">
+        <input class="login-form__input" name="username" type="text" placeholder="E-mail or Phone number">
+        <input class="login-form__input" name="password" type="password" placeholder="Password">
+        <input class="login-form__btn" type="submit" value="로그인">
+        <a class="login-form__a" href="#">코코아 계정 또는 비밀번호 찾기</a>
     </form>
 
 
